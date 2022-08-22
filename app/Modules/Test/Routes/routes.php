@@ -1,5 +1,4 @@
-<?php Route::group( [ 'namespace' => 'App\Modules\Test\Controllers',
-    'as' => 'test.',
+<?php Route::group( [ 'namespace' => 'App\Http\Controllers',
 ], function(){
     Route::get('/test', ['uses' => 'TestController@index']);
 });
