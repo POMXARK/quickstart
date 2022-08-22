@@ -137,6 +137,7 @@ return [
     'providers' => [
         App\Bankon\ModulesServiceProvider::class,
         App\Modules\ModulesServiceProvider::class,
+        App\Bankon\Products\ModulesServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
