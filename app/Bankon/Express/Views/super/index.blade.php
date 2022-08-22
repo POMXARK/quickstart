@@ -8,8 +8,8 @@
 </head>
 <body>
 
-<h1>Наш модуль:</h1>
+<h1>Bankon модуль:</h1>
 
-{{ trans('Test::test.this_module')}}
+{{ trans('Express::test.this_module')}}
 </body>
 </html>
